@@ -3,15 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package zoo;
-import java.util.*; //pour utiliser ArrayList 
+package projetzoo;
+
+import java.util.ArrayList;
 
 /**
  *
- * @author storyd
+ * @author mathi
  */
 public class Location {
-    //attributes
+        //attributes
     Position position; //corresponds to Location Enum
 //    String surface; //is this necessary?
     boolean broken; //0 = false, 1 = true
@@ -28,5 +29,4 @@ public class Location {
         position = p;
         broken = false; 
     }
-    
 }

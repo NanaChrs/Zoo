@@ -3,14 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package zoo;
+package projetzoo;
 
 /**
  *
- * @author storyd
+ * @author mathi
  */
-public class Lion extends Animal{
-    //Constructor
+public class Lion extends Animal {
     public Lion(){
         
     }

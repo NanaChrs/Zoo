@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package zoo;
+package projetzoo;
 
 /**
  *
- * @author storyd
+ * @author mathi
  */
-public abstract class Animal implements Oganism { //must be abstract because it does not implement Organism's methods
+public abstract class Animal implements Organism {
     boolean faim;   //implement in subclass to get name of class 
     boolean soif;    
     boolean malade;  //vet has a method that can make animal well again

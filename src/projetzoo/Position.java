@@ -3,14 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package zoo;
+package projetzoo;
 
 /**
  *
- * @author storyd
+ * @author mathi
  */
-interface Oganism {
-    public void mange();
-    public void parle();
-    public void interage();
+public enum Position {
+    Caisse, Oiseaux, Lions, Serpents, Pandas, Elephants, Zebras, Aquarium, Girafes, Singes, Suricates, Sorti
 }
